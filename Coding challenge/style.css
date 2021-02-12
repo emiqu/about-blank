@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  color: lightgray;
+}
+
+.container{
+  width: 1000px;
+  height: 650px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+
+header, nav, main, footer{
+  width: 800px;
+}
+
+header, footer{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+  height: 90px;
+  margin: 60px auto 0;
+}
+
+h1{
+  color: #00DD00;
+  font-size: 1.6em;
+  margin-bottom: 5px;
+}
+
+nav{
+  background-color: #00DD00;
+  text-align: center;
+  padding: 7px;
+}
+
+input[type=button]{
+  font-size: 0.7em;
+}
+
+h2{
+  color: white;
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+section, footer{
+  margin-top: 15px;
+}
+
+input[type=checkbox]{
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+div > span{
+  font-size: 0.8em;
+}
+
+.charge > div{
+  height: 25px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.chargingone{
+  width: 35%;
+  background-color: #f5b453;
+}
+
+.chargingtwo{
+  width: 60%;
+  background-color: #1ec31e;
+}
+
+.chargingthree{
+  width: 15%;
+  background-color: #be4141;
+}
+
+footer > span{
+  display: none;
+  font-size: 0.7em;
+}
